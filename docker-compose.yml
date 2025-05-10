@@ -1,0 +1,7 @@
+version: '1.0'
+
+services:
+  web:
+    image: authorization:latest
+    ports:
+      - '8080:8080'
